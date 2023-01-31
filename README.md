@@ -30,38 +30,64 @@ Categorical Feature, “Revenue,” which classifies whether an individual will 
 Each attribute is as follows:
 
 ● Administrative – Number of pages visited by the visitor about account management.
+
 ● Administrative Duration – Total amount of time (in seconds) the visitor spends on
 account management-related pages.
+
 ● Informational – Number of pages visited by the visitor about a Web site, communication, and
 address information of the shopping site.
+
 ● Information Durational – Total amount of time (in seconds) the visitor spends on
 informational pages.
+
 ● Product Related – Number of pages visited by the visitor about product-related pages.
+
 ● Product-Related Duration – Total amount of time (in seconds) the visitor spends on
 product-related pages.
+
 ● Bounce Rates – Average bounce rate value of the pages visited by the visitor.
+
 ● Exit Rates – Average exit rate value of the pages visited by the visitor.
+
 ● Page Value – Average page value of the pages visited by the visitor.
+
 ● Special Day – Closeness of the site visiting time to a special day.
+
 ● Month – Month value of the visit date.
+
 ● Operating System – Operating system of the visitor.
+
 ● Browser – Browser of the visitor.
+
 ● Region – Geographic region from which the visitor has started the session.
+
 ● Traffic Type – Traffic source by which the visitor has arrived at the Web site (e.g., banner, SMS,
 direct).
+
 ● Visitor Type – Visitor type as “New Visitor,” “Returning Visitor,” and “Other.”
+
 ● Weekend – Boolean value indicating whether the visit date is a weekend.
+
 ● Revenue – Class label indicating whether the visit has been finalized with a transaction.
 
 METHODOLOGIES:
 
 ● Classification Methods
+
 	● Decision Tree
+
 	● Random Forest
+
 	● Logistic Regression
+
 	● Naive Bayes
+
 	● SVM
+
 	● Neural Network
+
 	● Sequential Feature Selection
+
 		● Forward Selection
+
 		● Backward Elimination
